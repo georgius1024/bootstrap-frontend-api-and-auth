@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`about.vue should render correct way async 1`] = `
+<centeredlayout-stub>
+  <vflex-stub tag="div" md6="" xs12="" class="mt-3">
+    <vcard-stub tag="div" class="elevation4">
+      <vtoolbar-stub dense="true" scrollthreshold="300" dark="" class="primary">
+        <vtoolbartitle-stub>О приложении</vtoolbartitle-stub>
+      </vtoolbar-stub>
+      <vcardtext-stub>
+        <vlayout-stub tag="div" align-center="" row="">
+          <vflex-stub tag="div" class="col-xs-2"><img src="@/assets/logo.png" class="logo"></vflex-stub>
+          <vflex-stub tag="div" class="pl-2 pt-2">
+            <p>AWESOME FRONTEND APP</p>
+            <p>© 2018 Georgius 2018</p>
+            <p>Версия: 1.0.0.0</p>
+          </vflex-stub>
+        </vlayout-stub>
+        <p></p>
+      </vcardtext-stub>
+    </vcard-stub>
+  </vflex-stub>
+</centeredlayout-stub>
+`;

@@ -1,0 +1,18 @@
+.iconized {
+    text-align: center;
+    vertical-align:middle;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    user-select: none;
+}
+.iconized.small {
+    font-size: 12px;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+}

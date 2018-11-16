@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`footer.vue should render correct contents 1`] = `
+<vfooter-stub
+  app=""
+  dark=""
+  height="32"
+>
+  <div
+    class="mx-4"
+  >
+    LOCATION-NAME
+  </div>
+   
+  <vspacer-stub />
+   
+  <div
+    class="mx-4"
+  >
+    USER-NAME
+  </div>
+</vfooter-stub>
+`;

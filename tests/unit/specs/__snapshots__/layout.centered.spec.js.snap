@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default-layout.vue should render correct way 1`] = `<vcontainer-stub tag="div" fill-height="" justify-center=""></vcontainer-stub>`;

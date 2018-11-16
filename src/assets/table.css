@@ -1,0 +1,19 @@
+
+table.table {
+ border: 1px solid #aaa;
+ border-collapse: collapse;
+}
+
+table.striped td, table.striped th {
+  border: 1px solid #aaa;
+  padding: 6px 12px;
+}
+
+table.striped tr:nth-child(odd) td {
+    background-color: #ccc;
+}
+
+table.condensed td, table.condensed th {
+    padding: 2px 4px
+}
+

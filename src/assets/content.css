@@ -1,0 +1,578 @@
+.bbt-content {
+  min-height:300px;
+}
+.bbt-content td, .bbt-content th {
+}
+
+.bbt-content table {
+	border-collapse:collapse;
+}
+
+form {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.bbt-content img.left
+{
+	float:left;
+}
+
+.bbt-content img.right
+{
+	text-align:right;
+	float:right;
+	border:0;
+	margin:4px;
+	margin-left:32px;
+}
+
+.bbt-content img.middle
+{
+	margin:4px;
+	text-align:center;
+	margin: 0 auto;
+	display:block;
+}
+
+.bbt-content h1, .bbt-content.h1 {
+	font-size: 18px;
+	font-weight: 400;
+	color: #ff6600;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #bababa;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	display: block;
+}
+
+.bbt-content h2, .bbt-content.h2 {
+	font-size: 15px;
+	font-weight:bold;
+	color: #ff6600;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.bbt-content h3, .bbt-content.h3 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff6600;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.bbt-content .sel1 {
+	font-weight: bold;
+	color: #ff6600;
+	font-style: normal;
+	line-height: normal;
+}
+
+.bbt-content .sel2 {
+	font-weight: bold;
+	color: #6a8d00;
+	font-style: normal;
+	line-height: normal;
+}
+
+
+.bbt-content p {
+	padding: 5px 0 5px 0;
+	margin:0;
+	text-indent:0;
+}
+
+.bbt-content .video1  {
+ width:150px;
+ height:120px;
+ display: block;
+ background-image: url("/assets/video.jpg");
+ background-repeat: repeat-y;
+ background-position: left top;
+}
+.bbt-content .normal, .bbt-content .bg1, .bbt-content .bg2, .bbt-content .bg3 {
+	color: #333333;
+	font-weight: lighter;
+}
+.bbt-content .bg1 {
+	background-color:#eeeeee;
+	color: #222222;
+	padding:10px;
+}
+
+.bbt-content .bg2 {
+	background-color:#fef0ce;
+	color: #222222;
+	padding:10px;
+	}
+
+.bbt-content .bg3 {
+	background-color:#FFFFFF;
+	border: 1px solid #fe7010;
+	background-image: url("/assets/accent.gif");
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	vertical-align: top;
+	margin: 0px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+}
+.bbt-content li {
+	margin-left: 15px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+}
+.bbt-content ul {
+	list-style-image: url("/assets/marker_orange.gif");
+	list-style-position: outside;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+.bbt-content ol {
+	list-style-position: outside;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+.bbt-content BLOCKQUOTE {
+	padding:10px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+
+
+.bbt-content li {
+	margin:0px;
+	margin-left:20px;
+	margin-top: 2px;
+}
+
+.bbt-content ul {
+	list-style-type:square;
+	list-style-position:outside;
+	margin:5px 0px 5px 20px;
+	padding:0px;                
+}
+
+.bbt-content ol {
+	list-style-position:outside;
+	margin:5px 0px 5px 20px;
+	padding:0px;
+}
+
+.content .header {
+	background-image: url("/assets/c_bar_orange2.gif");
+	background-repeat: repeat-x;
+	background-color: #fe7010;
+	background-position: left top;
+
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+
+	padding-top: 3px;
+	padding-left: 12px;
+	padding-bottom: 3px;
+	height: 19px;
+}
+
+.bbt-content .header a:hover {
+	color: #FFFFFF;
+}
+.bbt-content .note {
+	color: #666;
+	font-size: 10px;
+ 	font-style:italic;
+}
+
+/***************************************/
+/******BBT******************************/
+/********* Стили Заголовков ********/
+.bbt-content h1, .bbt-content.h1, .bbt-content h2, .bbt-content .h2, .bbt-content h3, .bbt-content .h3, .bbt-content h4, .bbt-content .h4, .bbt-content h5, .bbt-content .h5, .bbt-content h6, .bbt-content .h6 {
+	text-align:left;
+	color:#006fd8;
+	margin-top:1em;
+	margin-bottom:0.35em;
+	font-weight: bold;
+}
+.bbt-content h1, .bbt-content.h1 {
+	font-size:160%;
+	color: #fe7010;
+}
+.bbt-content h2, .bbt-content.h2 {
+	font-size:135%;
+}
+.bbt-content h3, .bbt-content .h3 {
+	font-size:120%;
+}
+.bbt-content h4, .bbt-content.h4 {
+	font-size:100%;
+}
+.bbt-content h5, .bbt-content.h5 {
+	font-size:100%;
+	font-weight: normal;
+}
+.bbt-content h6, .bbt-content.h6 {
+	font-size:100%;
+	font-weight: normal;
+}
+.bbt-content hr {
+	height: 2px;
+	background-color: #006fd8;
+	padding: 0;
+	margin: 10px 0;
+	color: #006fd8;
+	border: 2px none #006fd8;
+}
+
+/*************  UL  OL  Li  *****************/
+.bbt-content ol {							
+  list-style-position: outside;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-right: 0em;
+	margin-bottom: 0.75em;
+	margin-left: 0.6em;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 1.5em;
+	display: table-cell;
+}
+.bbt-content ul {
+	list-style-image: url("/assets/marker_1.gif");
+  list-style-position: outside;
+	font-weight: normal;
+	margin-top: 0.5em;
+	margin-right: 0em;
+	margin-bottom: 0.75em;
+	margin-left: 0em;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 1.2em;
+	font-size: 1em;
+}
+.bbt-content li {
+ 	margin: 0.25em 0em;
+	text-align: justify;
+	font-weight: normal;
+}
+
+/***** Стили выделения текста *****/
+.bbt-content .marker-Blue {
+	background-color: #bddbff;	/***** (маркер-синий) *****/
+}
+.bbt-content .marker-Orange {
+	background-color: #ffcc99;  /***** (маркер-оранжевый) *****/
+}
+.bbt-content .selection_simple1 {  /***** (текст-синий) ****/
+ color:#006fd8;
+}
+.bbt-content .selection_simple2 {  /***** (текст-оранжевый) ****/
+ color:#fe7010;
+}
+
+
+/* Рамки */
+
+.bbt-content .outerselection {
+	margin-top: 0.35em;
+	margin-bottom: 0.75em;
+}
+/*блок Синий-темный*/
+.bbt-content .selection1 {
+	background-color: #006fd8;
+	font-size:120%;
+	color:#FFF;
+	padding: 0.7em 1em;
+	border: none;
+}
+/*блок Синий-светлый*/
+.bbt-content .selection2 {
+	background-color:#e3f6ff;
+	padding: 0.7em 1.2em;
+	border: 1px dashed #006fd8;
+}
+/*блок Оранжевый-темный*/
+.bbt-content .selection3 {
+	background-color: #fe7010;
+	font-size:120%;
+	color:#FFF;
+	padding: 0.7em 1em;
+	border: none;
+}
+/*блок Оранжевый-светлый*/
+.bbt-content .selection4 {
+	background-color: #fef3d8;
+	padding: 0.7em 1.2em;
+	border: 1px dashed #fe7010;
+}
+/*блок Светло-Серый*/
+.bbt-content .selection5 {
+	background-color:#f0f0f0;
+	padding: 0.7em 1.2em;
+	border: 1px dashed #999;
+	text-align: justify;
+}
+
+/* Блоки */
+/*   Новая редакция стиля "Блок-Предупреждение-Оранжевый"   */
+.bbt-content .outerframe1 {
+	margin-top: 0.15em;
+	margin-bottom: 0.75em;	
+	background-color: #fffff0;
+  background-image: url("/assets/block_line_o.gif");
+	background-repeat: repeat-y;
+	background-position: left top;
+  border: 2px solid #fe7010;
+}
+
+.bbt-content .frame1m {
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0.7em; 
+	padding-right: 1em;
+	padding-bottom: 0.7em;
+	padding-left: 60px;
+	background-image: url("/assets/block_accent_o.gif");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+/*   Новая редакция стиля "Блок-Вопрос-Синий"   */
+.bbt-content .outerframe2 {
+	margin-top: 0.15em;
+	margin-bottom: 0.75em;	
+	background-color: #fffff0;
+  background-image: url("/assets/block_line_b.gif");
+	background-repeat: repeat-y;
+	background-position: left top;
+  border: 2px solid #006fd8;
+}
+.bbt-content .frame2m {
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0.7em; 
+	padding-right: 1em;
+	padding-bottom: 0.7em;
+	padding-left: 60px;
+	background-image: url("/assets/block_question_b.gif");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.bbt-content .outerframe {
+	margin-top: 0.15em;
+	margin-bottom: 0.75em;	
+	background-color: #fffff0;
+}
+/*Синяя Рамка - Одинарная*/
+.bbt-content .frame3 {
+ border:solid #006fd8 2px;
+ padding: 0.7em 1em;
+}
+/*Оранжевая Рамка - Одинарная*/
+.bbt-content .frame4 {
+	border:2px solid #fe7010;
+	padding: 0.7em 1em;
+}
+/*Синяя Рамка - Двойная*/
+.bbt-content .frame5 {
+ border:solid #006fd8 2px;
+ padding: 0.7em 1em;
+}
+/*Оранжевая Рамка - Двойная*/
+.bbt-content .frame6 {
+ border:solid #fe7010 2px;
+ padding: 0.7em 1em;
+}
+
+/************** Стиль для таблиц в "Table-Block`e" ****************/
+.bbt-content .basicTableEnvelope {
+	padding: 0px;
+	margin: 0px;
+  text-align:center;
+}
+.bbt-content .basicTableEnvelope .basicTableName {
+	color: #fe7010;
+	text-align: right;
+	font-weight: bold;
+}
+.bbt-content .basicTable {
+  width:100%;
+	background: #fffff0; /* Цвет фона нечетных строк */
+	border: 1px solid #006fd8; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Убираем двойные линии между ячейками */
+	margin-top: 0.6em;
+	margin-bottom: 1.4em;
+}
+.bbt-content .basicTable TD, .bbt-content .basicTable TH {
+    padding: 0.25em 0.8em; /* Поля вокруг содержимого ячейки */
+}
+.bbt-content .basicTable TD {
+	text-align: center; /* Линия внизу ячейки */
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #006fd8;
+	border-left-color: #006fd8;
+}
+.bbt-content .basicTable TH {
+	font-weight:bold;
+	background: #006fd8; /* Цвет фона */
+	color: white; /* Цвет текста */
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+}
+.bbt-content .basicTable TR.even {
+    background: #fff8dc; /* Цвет фона четных строк */
+}
+.bbt-content .basicTable .la {
+	text-align: left; /* Выравнивание по левому краю */
+	border-left-style: none;
+	text-indent: 1em;
+}
+
+
+/******** Оставлено для совместимости **************/
+
+.bbt-content .frame1 {    /*   Старая редакция стиля frame1    */
+	border: 2px solid #fe7010;
+	background-image: url("/assets/block_accent_o_old.gif");
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0.7em; 
+	padding-right: 1em;
+	padding-bottom: 0.7em;
+	padding-left: 60px;
+}
+
+.bbt-content .frame2 {    /*   Старая редакция стиля frame2    */
+	border: 2px solid #006fd8;
+	background-image: url("/assets/block_question_b_old.gif");
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0.7em; 
+	padding-right: 1em;
+	padding-bottom: 0.7em;
+	padding-left: 60px;
+}
+
+
+/********* LEGACY ***********/
+
+.bbt-content .sel1 {
+ font-size: 18px;
+ color:#006fd8;
+ margin-bottom:20px;
+ text-align:center;
+}
+
+.bbt-content .sel2 {
+ border: 1px solid #fe7010;
+ background-image: url("/assets/accent.gif");
+ background-repeat: no-repeat;
+ background-position: left center;
+ text-align: left;
+ vertical-align: top;
+ margin: 0px;
+ padding-top: 15px;
+ padding-right: 15px;
+ padding-bottom: 15px;
+ padding-left: 60px;
+}
+
+.bbt-content .sel3 {
+ border: 1px solid #fe7010;
+ background-image: url("/assets/question.gif");
+ background-repeat: no-repeat;
+ background-position: left center;
+ text-align: left;
+ vertical-align: top;
+ margin: 0px;
+ padding-top: 15px;
+ padding-right: 15px;
+ padding-bottom: 15px;
+ padding-left: 60px;
+}
+
+.bbt-content .border1 {
+ border:solid #006fd8 2px;
+ padding:15px;
+}
+
+.bbt-content .border2 {
+ border:solid #666 1px;
+ padding:15px;
+}
+
+/**************/
+
+.bbt-content .question {
+ font-size: 22px;
+ color:#006fd8;
+ font-weight:bold;
+}
+
+.bbt-content .slide {
+	color: #000;
+	font-size: 16px;
+}
+
+.bbt-content label.answer, .bbt-content .answer label {
+	color: #333 !important;
+	font-size: 16px !important;
+}
+
+.bbt-content .hint {
+	color: #000;
+	font-size: 16px;
+}

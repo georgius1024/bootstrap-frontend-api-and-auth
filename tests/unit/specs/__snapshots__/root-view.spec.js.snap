@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`root-view.vue should render correct contents  1`] = `
+<centeredlayout-stub>
+  <vscaletransition-stub origin="top center 0">
+    <vflex-stub tag="div" xs12="" sm8="" lg6="" class="my-4">
+      <vcard-stub tag="div" color="secondary lighten-5">
+        <vcardtext-stub class="px-5 pb-5"><img src="@/assets/logo.png" class="logo hidden-md-and-down">
+          <p class="hidden-md-and-down text-xs-center">
+            AWESOME FRONTEND APP
+
+          </p>
+          <vdivider-stub class="my-2 hidden-md-and-down"></vdivider-stub>
+          <vlayout-stub tag="div" column="">
+            <vbtn-stub activeclass="v-btn--active" block="true" large="true" tag="button" type="button" disabled="" class="primary">
+              Action 1
+            </vbtn-stub>
+            <vbtn-stub activeclass="v-btn--active" block="true" large="true" tag="button" type="button" disabled="" class="primary">
+              Action 2
+            </vbtn-stub>
+            <vbtn-stub activeclass="v-btn--active" block="true" large="true" tag="button" type="button" disabled="" class="primary">
+              Action 3
+            </vbtn-stub>
+            <vbtn-stub activeclass="v-btn--active" block="true" large="true" tag="button" type="button" disabled="" class="primary">
+              Action 4
+            </vbtn-stub>
+          </vlayout-stub>
+        </vcardtext-stub>
+      </vcard-stub>
+    </vflex-stub>
+  </vscaletransition-stub>
+</centeredlayout-stub>
+`;

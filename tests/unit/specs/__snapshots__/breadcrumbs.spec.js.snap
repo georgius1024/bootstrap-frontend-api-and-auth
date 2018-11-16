@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`breadcrumbs.vue should render correct contents 1`] = `<vbreadcrumbs-stub divider="/" items="[object Object]"></vbreadcrumbs-stub>`;
+
+exports[`breadcrumbs.vue should show items array 1`] = `<vbreadcrumbs-stub divider="/" items="[object Object],[object Object]"></vbreadcrumbs-stub>`;
